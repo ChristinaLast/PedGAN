@@ -158,8 +158,6 @@ JF.getFormSubmissions("223104390365146", function (response) {
 
     const locationButton = document.createElement("div");
     // create a button that will request the users location
-    locationButton.textContent = "Where am I?";
-    locationButton.id = "location-button";
     locationButton.addEventListener("click", () => {
         // when clicked, get the users location
         if (navigator.geolocation) {
@@ -295,8 +293,6 @@ JF.getFormSubmissions("223104390365146", function (response) {
 
     const locationButton = document.createElement("div");
     // create a button that will request the users location
-    locationButton.textContent = "Where am I?";
-    locationButton.id = "location-button";
     locationButton.addEventListener("click", () => {
         // when clicked, get the users location
         if (navigator.geolocation) {
@@ -497,8 +493,6 @@ function get_gifs() {
 
     const locationButton = document.createElement("div");
     // create a button that will request the users location
-    locationButton.textContent = "Where am I?";
-    locationButton.id = "location-button";
     locationButton.addEventListener("click", () => {
         // when clicked, get the users location
         if (navigator.geolocation) {
