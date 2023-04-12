@@ -67,14 +67,14 @@ figure {
 .image-gallery {
   position: absolute;
   background: black;
-  margin:auto;
+  margin: auto;
   font-family: Arial, sans-serif;
   overflow: auto;
   color: white;
   border: 1px solid white;
   width: 50%;
   height: 50%;
-  left:25%;
+  left: 25%;
   border-radius: 30px;
 
 }
@@ -85,7 +85,7 @@ figure {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   line-height: 18px;
   margin: auto;
-  top:25%;
+  top: 25%;
   text-align: left;
 }
 
@@ -109,10 +109,10 @@ figure {
 }
 
 #image-gallery-button {
-  position:absolute;
-  top:10px;
-  right:10px;
-  
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
 }
 
 #location-button:hover,
@@ -239,7 +239,6 @@ figure {
 
 .map-overlay {
   position: absolute;
-  right: 0;
   background: black;
   margin-right: 20px;
   font-family: Arial, sans-serif;
@@ -248,7 +247,7 @@ figure {
   border: 1px solid white;
 
 }
- 
+
 /* place the info panel top right */
 #features {
   top: 0;
@@ -265,8 +264,8 @@ figure {
 #legend {
   padding: 10px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  line-height: 18px;
-  margin-bottom: 40px;
+  line-height: 13px;
+  margin-bottom: 4px;
   bottom: 0;
 }
 
@@ -292,32 +291,32 @@ figure {
 }
 
 .legend-section {
-  padding-bottom: 20px
+  padding-bottom: 2px
 }
 
 .legend-section-no-check {
-  float:left;
-  display:inline;
+  float: left;
+  display: inline;
   width: 90%;
 }
 
 .legend-check {
-  top:50%;
-  float:left;
-  display:inline;
-  width:9%;
+  top: 50%;
+  float: left;
+  display: inline;
+  width: 9%;
 }
 
 .legend-point {
-  float:left;
-  display:inline;
+  float: left;
+  display: inline;
   width: 15%;
 }
 
 .legend-point-label {
-  float:left;
+  float: left;
   display: inline;
-  width:85%;
+  width: 85%;
 }
 
 .legend-item-label {
@@ -335,8 +334,8 @@ img {
 /* adjust legend squares */
 .legend-key {
   display: inline-block;
-  width: 50px;
-  height: 30px;
+  width: 150px;
+  height: 12px;
 }
 
 
@@ -346,9 +345,9 @@ img {
 
 /* mobile only */
 @media screen and (max-width: 600px) {
- 
+
   body {
-      overflow: hidden;
+    overflow: hidden;
   }
 
   .image-gallery {
@@ -357,24 +356,24 @@ img {
   }
 
   .map-overlay {
-      margin: 0;
+    margin: 0;
   }
 
   #legend {
-      z-index: 10;
-      width: 100%;
-      left: 0;
-      margin: 0;
-      border: none;
-      padding: 10px 0;
+    z-index: 10;
+    width: 100%;
+    left: 0;
+    margin: 0;
+    border: none;
+    padding: 10px 0;
 
   }
 
   #features {
-      top: 0;
-      margin-top: 0;
-      width: 100%;
-      padding: 5px 0;
-      border: none;
+    top: 0;
+    margin-top: 0;
+    width: 100%;
+    padding: 5px 0;
+    border: none;
   }
 }
